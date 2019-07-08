@@ -4,11 +4,12 @@
 #include <stdint.h>
 #include <stdio.h>
 
-extern const char* status();
+extern const char* status(char*);
 extern int backint();
 
 int main() {
-    const char* output = status();
+    char* input = "123";
+    const char* output = status(input);
     printf(output);
     printf("\n");
     int output1 = backint();
