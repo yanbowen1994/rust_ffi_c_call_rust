@@ -1,0 +1,11 @@
+[package]
+name = "gcc"
+version = "0.1.0"
+authors = ["YanBowen"]
+edition = "2018"
+
+[lib]
+name = "rust_gcc"
+crate_type = ["staticlib"]
+
+[dependencies]

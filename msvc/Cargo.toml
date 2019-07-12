@@ -1,0 +1,12 @@
+[package]
+name = "msvc"
+version = "0.1.0"
+authors = ["YanBowen"]
+edition = "2018"
+
+[lib]
+name = "rust"
+crate_type = ["staticlib"]
+
+[dependencies]
+libc = ""
